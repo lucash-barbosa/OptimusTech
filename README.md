@@ -5,5 +5,4 @@
 OptimusTech feito somente com html e css
 
 ## 📁 Acesso
-É possivel acessar o projeto <a href="https://alura-book-ags4fjeq0-lucaslkj.vercel.app/">aqui</a>
-ou <a href="https://github.com/lucash-barbosa/OptimusTech/archive/refs/heads/master.zip">baixá-lo</a>
+É possivel baixar o projeto <a href="https://github.com/lucash-barbosa/OptimusTech/archive/refs/heads/master.zip">aqui</a>
