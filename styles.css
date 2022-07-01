@@ -1,0 +1,14 @@
+@import url("css/header.css");
+
+:root {
+    --fonte-padrao: 'Inter', sans-serif;
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --vermelho-escuro: #8E2424;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 500;
+}
