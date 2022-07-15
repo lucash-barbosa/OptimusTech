@@ -1,10 +1,11 @@
-@import url("css/header.css");
+@import url("css/cabecalho.css");
 
 :root {
     --fonte-padrao: 'Inter', sans-serif;
     --cinza-escuro: #3A404E;
     --cinza-claro: #667085;
     --vermelho-escuro: #8E2424;
+    --branco: #FFF;
 }
 
 body {

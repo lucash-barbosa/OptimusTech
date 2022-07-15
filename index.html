@@ -16,25 +16,30 @@
 </head>
 <body>
     <header class="cabecalho">
-        <div class="cabecalho__container">
-            <label class="cabecalho__label">
-                <img class="cabecalho__logo" src="img/worldwide.svg" alt="Logo OptimusTech">
-                <span class="cabecalho__titulo"><h1>OptimusTech</h1></span>
+        <div class="container">
+            <input id="menu" type="checkbox" class="container__botao">
+            <label for="menu" class="container__label">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
             </label>
-    
-            <ul class="cabecalho__lista">
-                <li class="cabecalho__item"><a class="cabecalho__link" href="#">Home</a></li>
-                <li class="cabecalho__item"><a class="cabecalho__link" href="#">Produtos</a></li>
-                <li class="cabecalho__item"><a class="cabecalho__link" href="#">Recursos</a></li>
-                <li class="cabecalho__item"><a class="cabecalho__link" href="#">Sobre Nós</a></li>
-            </ul>
+            <div class="cabecalho__logo">
+                <img class="logo" src="./img/worldwide.svg">
+                <h1 class="cabecalho__titulo">Optimus Tech</h1>
+            </div>
 
-            <ul class="cabecalho__lista-login">
-                <li class="cabecalho__item-login"><a class="cabecalho__link-login" href="#">Entrar</a></li>
-                <li class="cabecalho__item-login"><a class="cabecalho__link-login cabecalho__link-destaque" href="#">Cadastrar</a></li>
+            <nav class="cabecalho__nav">
+                <ul class="cabecalho__lista">
+                    <li class="cabecalho__item"><a href="#" class="cabecalho__link">Home</a></li>
+                    <li class="cabecalho__item"><a href="#" class="cabecalho__link">Produtos</a></li>
+                    <li class="cabecalho__item"><a href="#" class="cabecalho__link">Recursos</a></li>
+                    <li class="cabecalho__item"><a href="#" class="cabecalho__link">Sobre nós</a></li>
+                </ul>
+            </nav>
+
+            <ul class="cabecalho__botoes">
+                <button class="cabecalho__botao cabecalho__link ">Entrar</button>
+                <button class="cabecalho__botao cabecalho__botao-destaque">Cadastrar</button>
             </ul>
         </div>
-
     </header>
 </body>
 </html>
