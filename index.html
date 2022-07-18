@@ -36,8 +36,8 @@
             </nav>
 
             <ul class="cabecalho__botoes">
-                <button class="cabecalho__botao cabecalho__link ">Entrar</button>
-                <button class="cabecalho__botao cabecalho__botao-destaque">Cadastrar</button>
+                <button class="btn cabecalho__link ">Entrar</button>
+                <button class="btn btn-destaque">Cadastrar</button>
             </ul>
         </div>
     </header>
@@ -129,44 +129,13 @@
     </section>
 
     <footer class="rodape">
-        
+        <div class="rodape__container">
+            <h2 class="rodape__titulo">Acompanhe as nossas oportunidades</h2>
+            <p class="rodape__paragrafo">Seja o primeiro a saber quando novas vagas serão abertas!</p>
+            <input type="email" name="email" class="rodape__email" placeholder="Seu e-mail">
+            <button class="btn btn-destaque">Cadastrar</button>
+            <span class="direitos-altorais">© 2022 OptimusTech. Todos os direitos reservados.</span>
+        </div>
     </footer>
-<!-- Code injected by live-server -->
-<script type="text/javascript">
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script></body>
+</body>
 </html>

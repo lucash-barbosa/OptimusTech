@@ -30,10 +30,6 @@
 
 .cabecalho__nav {
     display: none;
-    position: absolute;
-    top: 100%;
-    width: 70vw;
-    background-color: var(--branco);
 }
 
 .cabecalho__item {
@@ -47,22 +43,10 @@
 
 .container__botao:checked ~ .cabecalho__nav {
     display: block;
-}
-
-.cabecalho__botao {
-    background-color: transparent;
-    border: none;
-    font-family: var(--font-padrao);
-    font-size: 16px;
-    font-weight: 500;
-    margin: 0 1em;
-}
-
-.cabecalho__botao-destaque {
-    color: var(--branco);
-    background-color: var(--vermelho-escuro);
-    padding: .8em 1em .8em 1em;
-    border-radius: 10px;
+    position: absolute;
+    top: 100%;
+    width: 70vw;
+    background-color: var(--branco);
 }
 
 @media screen and (min-width: 1020px) {

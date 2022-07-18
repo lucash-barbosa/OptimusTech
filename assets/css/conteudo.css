@@ -117,6 +117,7 @@
 
 .subtitulo__destaque-colaboradores {
     font-weight: 500;
+    font-size: 32px;
 }
 
 .usuario__nome {
@@ -131,10 +132,23 @@
 }
 
 
-
 @media screen and (min-width: 768px) {
     .vagas__img {
         width: 85%;
+    }
+
+    .profissao__titulo {
+        margin-bottom: 2em;
+    }
+    
+    .colaboradores-avaliacao {
+        width: 75%;
+        margin: 5rem auto;
+        border-radius: 10px;
+    }
+
+    .subtitulo__destaque-colaboradores {
+        font-size: 44px;
     }
 }
 
@@ -156,176 +170,7 @@
     .vagas__profissao {
         width: 50%;
     }
-    .sobre-nos {
-        text-align: center;
-        margin: 2rem 0;
-        top: auto;
-    }
-    
-    .subtitulo {
-        font-weight: 600;
-        color: var(--vermelho-escuro);
-    }
-    
-    .subtitulo__destaque {
-        font-weight: 600;
-        font-size: 48px;
-        color: var(--preto-claro);
-        margin: 2rem 0;
-    }
-    
-    .paragrafo {
-        color: var(--cinza-claro);
-        font-weight: 400;
-        font-size: 20px;
-        width: 80%;
-        margin: 0 auto;
-    }
-    
-    .dados {
-        margin: 5rem 0;
-    }
-    
-    .dados__item {
-        margin: 2rem;;
-    }
-    
-    .dados__quantidade {
-        font-weight: 600;
-        font-size: 60px;
-        color: var(--vermelho-escuro);
-    }
-    
-    .dados__titulo {
-        font-size: 18px;
-        color: var(--preto-claro);
-    }
-    
-    .dados__paragrafo {
-        font-weight: 400;
-        color: var(--cinza-claro);
-    }
-    
-    .vagas {
-        text-align: center;
-    }
-    
-    .subtitulo-vagas {
-        background-color: var(--vermelho-claro);
-        padding: .5em;
-        border-radius: 10px;
-        font-weight: 500;
-        font-size: 14px;
-    }
-    
-    .vagas__container {
-        width: 90%;
-        margin: auto;
-    }
-    
-    .vagas__img {
-        margin: 2rem 0;
-        width: 100vw;
-    }
-    
-    .vagas__profissao {
-        width: 80%;
-        margin: auto;
-    }
-    
-    .area__titulo {
-        font-size: 20px;
-        color: var(--preto-claro);
-        text-align: left;
-        margin: 1em 0;
-    }
-    
-    .profissao {
-        margin: auto;
-        border-radius: 12px;
-        border: solid 1px rgba(234, 236, 240, 1);
-        text-align: left;
-        padding: 1.5em;
-        margin: 1rem 0;
-    }
-    
-    .profissao__titulo {
-        color: var(--preto-claro);
-        font-size: 18px;
-        margin-bottom: 1em;
-    }
-    
-    .profissao__info {
-        display: inline-block;
-        color: var(--cinza-claro);
-        margin: 0 .5em;
-    }
-    
-    .colaboradores-avaliacao {
-        text-align: center;
-        margin: 3rem 0;
-        background-color: var(--vermelho-claro);
-        padding: 2rem;
-    }
-    
-    .subtitulo__colaboradores-avaliacao {
-        font-weight: 600;
-        font-size: 14px;
-    }
-    
-    .subtitulo__destaque-colaboradores {
-        font-weight: 500;
-    }
-    
-    .usuario__nome {
-        color: var(--preto-claro);
-    }
-    
-    .usuario__profissao {
-        color: var(--cinza-claro);
-        font-weight: 400;
-        font-size: 14px;
-        margin-top: 1em;
-    }
-    
-    
-    
-    @media screen and (min-width: 768px) {
-        .vagas__img {
-            width: 85%;
-        }
-    }
-    
-    @media screen and (min-width: 1020px) {
-        .sobre-nos .paragrafo {
-            width: 60%;
-        }
-    
-        .dados {
-            display: flex;
-            padding: 0 5rem;
-        }
-    
-        .dados__item {
-            text-align: left;
-            width: 30%;
-        }
-    
-        .vagas__profissao {
-            width: 50%;
-        }
-    
-        .profissao__titulo {
-            margin-bottom: 2em;
-        }
-    
-        .colaboradores-avaliacao {
-            width: 75%;
-            margin: 5rem auto;
-            border-radius: 10px;
-        }
-    }
-    
+
     .profissao__titulo {
         margin-bottom: 2em;
     }
