@@ -73,5 +73,100 @@
             </div>
         </section>
     </section>
-</body>
+
+    <section class="vagas">
+        <div class="vagas__container">
+            <span class="subtitulo subtitulo-vagas">Vagas abertas!</span>
+            <h2 class="subtitulo__destaque">Estamos procurando por talentos</h2>
+            <p class="paragrafo">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+        </div>
+
+        <img class="vagas__img" src="assets/img/reuniao.png" alt="Foto de pessooas em uma reunião">
+
+        <section class="vagas__profissao">
+        <h3 class="area__titulo">Design</h3>
+            <div class="profissao">
+                <h4 class="profissao__titulo">Product Designer</h4>
+                <p class="profissao__info">Full-time</p>
+                <p class="profissao__info">Faixa salarial: R$7.000</p>
+            </div>
+
+            <div class="profissao">
+                <h4 class="profissao__titulo">UX Designer</h4>
+                <p class="profissao__info">Full-time</p>
+                <p class="profissao__info">Faixa salarial: R$6.000</p>
+            </div>
+        </section>
+
+        <section class="vagas__profissao">
+            <h3 class="area__titulo">Desenvolvimento de Software</h3>
+                <div class="profissao">
+                    <h4 class="profissao__titulo">Desenvolvedor(a) iOS</h4>
+                    <p class="profissao__info">Full-time</p>
+                    <p class="profissao__info">Faixa salarial: R$8.000</p>
+                </div>
+    
+                <div class="profissao">
+                    <h4 class="profissao__titulo">Desenvolvedor(a) Front-end</h4>
+                    <p class="profissao__info">Full-time</p>
+                    <p class="profissao__info">Faixa salarial: R$7.000</p>
+                </div>
+
+                <div class="profissao">
+                    <h4 class="profissao__titulo">Desenvolvedor(a) Back-end</h4>
+                    <p class="profissao__info">Full-time</p>
+                    <p class="profissao__info">Faixa salarial: R$8.000</p>
+                </div>
+            </section>
+    </section>
+
+    <section class="colaboradores-avaliacao">
+        <span class="subtitulo subtitulo__colaboradores-avaliacao">Veja o que nossos colaboradores falam sobre nós</span>
+        <h2 class="subtitulo__destaque subtitulo__destaque-colaboradores">OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.</h2>
+        <img src="assets/img/Avatar.svg" alt="Foto de perfil da Júlia">
+        <p class="usuario__nome">júlia Castro</p>
+        <p class="usuario__profissao">Desenvolvedora Web</p>
+    </section>
+
+    <footer class="rodape">
+        
+    </footer>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
 </html>
