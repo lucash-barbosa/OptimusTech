@@ -30,6 +30,10 @@
 
 .cabecalho__nav {
     display: none;
+        position: absolute;
+    top: 100%;
+    width: 70vw;
+    background-color: var(--branco);
 }
 
 .cabecalho__item {
@@ -43,13 +47,13 @@
 
 .container__botao:checked ~ .cabecalho__nav {
     display: block;
-    position: absolute;
-    top: 100%;
-    width: 70vw;
-    background-color: var(--branco);
 }
 
 @media screen and (min-width: 1020px) {
+    .container {
+        justify-content: space-around;
+    }
+
     .cabecalho__menu-hamburguer {
         display: none;
     }         
