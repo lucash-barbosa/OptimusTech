@@ -10,3 +10,4 @@ OptimusTech feito somente com html e css
 
 ## 📁 Acesso
 É possivel baixar o projeto <a href="https://github.com/lucash-barbosa/OptimusTech/archive/refs/heads/master.zip">aqui</a>
+ou <a href="https://optimus-tech-ptsocuvch-lucaslkj.vercel.app">acessá-lo</a>
