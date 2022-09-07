@@ -35,3 +35,4 @@ Para acessar o deploy utilize o link abaixo
 - Abra o programa no navegador pelo link <a href="http://localhost:3000/">http://localhost:3000/</a>
 
 ## Licença
+[MIT License](./LICENSE) © [Lucas Henrique Barbosa](https://github.com/lucash-barbosa/)
