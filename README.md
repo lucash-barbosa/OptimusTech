@@ -17,7 +17,7 @@
 | :rocket: URL         | <a href="https://optimus-tech-lucash.vercel.app">OptimusTech</a>
 | :fire: Desafio     | <a href="https://7daysofcode.io/matricula/html-css">7dayofcode</a>
                                                   
-![OptimusTech](screencapture.png#vitrinedev)
+![OptimusTech](screencature.png#vitrinedev)
 
 ## 🚀 Acesso
 Para acessar o deploy utilize o link abaixo
