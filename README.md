@@ -3,8 +3,8 @@
 </div>
 
 
-![shild](https://img.shields.io/github/repo-size/lucash-barbosa/****)
-![shild](https://img.shields.io/github/last-commit/lucash-barbosa/****)
+![shild](https://img.shields.io/github/repo-size/lucash-barbosa/OptimusTech)
+![shild](https://img.shields.io/github/last-commit/lucash-barbosa/OptimusTech)
 
 > :book: Site de empregos, busque as melhores ofertas
 
